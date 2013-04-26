@@ -1,0 +1,125 @@
+body{
+    background-color: #002176;
+    margin:0;
+    padding:0;
+}
+#wrapper{
+    margin:3px 20%;
+    background-color: white;
+    width: 60%;
+    height:115;
+    border: 1px solid #002176;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    
+}
+.logo{
+    margin: 20px;
+}                     
+.product{
+    background-image: url("img/redProducts.png") ;
+    background-repeat:no-repeat;
+}
+.product.active, .product:hover{
+    background-image: url("img/onProducts.png") ;
+    background-repeat:no-repeat;
+}
+.support{
+    background-image: url("img/redSupport.png") ;
+    background-repeat:no-repeat;
+}
+.support.active,.support:hover {
+    background-image: url("img/onSupport.png") ;
+    background-repeat:no-repeat;
+}
+.aboutus{
+    background-image: url("img/redAboutUs.png") ;
+    background-repeat:no-repeat;
+}
+.aboutus.active, .aboutus:hover {
+    background-image: url("img/onAboutUs.png") ;
+    background-repeat:no-repeat;
+}
+#main_menu{
+    height:25px;
+    margin:0;
+    padding:0;
+    width:100%
+}
+#main_menu ul li{
+    height: 25px;
+    text-align: left;
+    float: left;
+    list-style: none;
+    width: 136px;
+}
+#sub_menu{
+    margin-top: -2px;
+    border-top:2px solid red;
+    border-bottom:2px solid #f7f7f7;
+    height:30px
+    
+}
+
+#sub_menu ul{
+    margin-top: 5px;
+    
+}
+
+#sub_menu ul li{
+    float:left;
+    list-style: none;
+    padding:3px 10px;
+    cursor: pointer;
+   
+    
+    
+}
+
+.active_sub{background-color: #f7f7f7;}
+#sub_menu ul img{
+    float:left;
+    margin: -5px 0px 0 0px;
+    
+}
+.link h4{
+    margin:0
+    
+}
+.link{
+    float:right;
+    margin-top: -40px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+#body{
+	padding:20px 40px
+}
+#body p{
+	text-align:justify
+	
+}
+#body img{margin-left:20px}
+#body h1{
+    text-align: center;
+}
+.ws-title{
+    display:none
+}
+.apparel li{float:left;margin-right:50px;border:1px solid gray; padding:10px ;margin-bottom:30px}
+.apparel li img{width:180px; height:180px;margin-bottom:50px}
+.apparel li img:hover{width:181px; height:187px;margin-left:-3px;margin-top:-5px;border:1px solid gray;margin-bottom:47px}
+.drop_down ul li{list-style: none;}
+.dropdown_1{width:800px}
+.title{color:blue;margin:10px; font-size: 20px;}
+.clear{clear:both}
+body{margin-bottom:20px}
+.drop_down .sub_active{display:block}
+.dropdown_2,.dropdown_3,.dropdown_4,.dropdown_5,.dropdown_6,.dropdown_7{
+    position: absolute; top: 190px; height: auto; background-color: white;padding-right: 17px;display: none;background-color: #f7f7f7;
+}
+.dropdown_1{
+     position: absolute; top: 190px; height: auto; background-color: white;padding-right: 13px;
+     background-color: #f7f7f7;
+}
+.question{margin:0px 20%; border:2px solid #f7f7f7; background-color: #f0f0f0;}
